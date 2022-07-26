@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static("styles"));
 
 app.get("/", (req, res) => {
-  const title = "Области";
+  const title = "Regions";
   Contact.find()
     .then((contacts) => res.render(createPath("contacts"), { contacts, title }))
     .catch((error) => {
