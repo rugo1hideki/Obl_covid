@@ -4,4 +4,4 @@ Allows monitoring with MongoDB covid
 
 ---
 
-Hosting - https://heromanagers.herokuapp.com/
+Hosting - https://covid-reg.herokuapp.com/
